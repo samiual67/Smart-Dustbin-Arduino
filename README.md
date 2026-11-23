@@ -59,7 +59,7 @@ Conventional waste bins require physical hand contact to open their lids and pro
 ## Working Principle
 
 1. **Acoustic Time-of-Flight (ToF) Ranging:**
-   The Arduino sends a `10 µs` HIGH trigger pulse to each HC-SR04 sensor and measures the round-trip echo pulse duration (`Δt`) with a `30 ms` non-blocking timeout:
+   The Arduino sends a `10 µs` HIGH trigger pulse to each HC-SR04 sensor and measures the round-trip echo pulse duration (`Δt`) with a `30 ms` timeout:
    ```text
    Distance (cm) = (Duration_us × 0.034) / 2
    ```
@@ -89,7 +89,7 @@ Smart-Dustbin-Arduino/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Smart-Dustbin-Arduino.git
+   git clone https://github.com/samiual67/Smart-Dustbin-Arduino.git
    ```
 2. Open `Smart_Dustbin.ino` in **Arduino IDE**.
 3. Select **Tools → Board → Arduino UNO** and choose your active **COM Port**.
@@ -101,7 +101,8 @@ Smart-Dustbin-Arduino/
 
 - **Institution:** Pundra University of Science & Technology, Bogura – 5800, Bangladesh
 - **Department:** Computer Science & Engineering (CSE) — B.Sc. 6th Semester
-- **Team Roles:**
-  - **Firmware Lead:** Md. Maruf Hasan (Coding, Debugging & Sensor Calibration)
-  - **Hardware Lead:** Circuit Design, Wiring, Assembly & Testing
-  - **Documentation Lead:** Project Report, Schematics & Presentation
+- **Supervisor:** M. Z. I. Juwel, Lecturer, Department of CSE
+- **Team Members & Roles:**
+  - **Md. Samiual Mia** (ID: 0322410105101001) — Firmware Lead: Coding, Debugging & Sensor Calibration
+  - **Md. Maruf Hasan** (ID: 0322320105101061) — Hardware Lead: Circuit Design, Wiring, Assembly & Testing
+  - **Mst. Tamanna** (ID: 0322310205101053) — Documentation Lead: Project Report, Schematics & Presentation
